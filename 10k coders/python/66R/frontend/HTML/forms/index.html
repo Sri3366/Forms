@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        body{
+            
+            background: rgba(218, 205, 205, 0.753);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        input{
+            padding: 10px;
+            margin: 6px 0;
+            border-radius: 4px;
+        }
+        .card{
+            width: 350px;
+            background: white;
+            padding: 40px 35px;
+            border: 1px solid #dbdbdb;
+            text-align: center;
+        }
+       .logo {
+            font-family:cursive;
+             font-size: 40px;
+            font-weight: bold;
+         
+       }
+       .signup{
+        background:#0095f6;
+        width: 100%;
+        border:none;
+        border-radius: 6px;
+        color: white;
+        padding: 10px;
+        
+        
+       }
+
+       .signup:hover{
+         background: rgb(29, 29, 133);
+       }
+        a {
+            color: #0095f6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+    <h1 class="logo">Instagram</h1>
+    <p style="font-family:Arial, Helvetica, sans-serif;">Sign up to see photos and videos from your friends.</p>
+    <a href="https://www.facebook.com/"><button class="signup">Log in with Facebook</button></a>
+    <form action="$ docker run -p 80:80 kennethreitz/httpbin" method="GET">
+        <input type="text" name="Mobile Number or Email" placeholder="Mobile Number or Email"><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="text" name="Full Name" placeholder="Full Name"><br>
+        <input type="text" name="Username" placeholder="Username"><br>
+       
+        <p style="font-size: small;">People who use our service may have uploaded your contact information to Instagram. <a href="#">Learn More</a></p>
+        <p style="font-size: small;">By signing up, you agree to our <a href="#">Terms</a> , <a href="#">Privacy Policy</a> and <a href="">Cookies Policy </a>.</p>
+        <button class="signup">Sign up</button>
+        </div>
+    </form>
+</body>
+</html>
